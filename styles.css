@@ -7,7 +7,7 @@ color: black;
 .container-navigation {
 display: flex;
 justify-content: right;
-*flex-wrap: nowrap;
+flex-wrap: nowrap;
 margin: 0px;
 background-color: purple;
 }
@@ -101,6 +101,6 @@ body {
 background-color: black;
 }
 .inquiry {
-width: 550px;
+width: 540px;
 }
 }
