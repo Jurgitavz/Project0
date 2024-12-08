@@ -75,6 +75,8 @@ body {
 /* Large devices (laptops/desktops) */
 @media (min-width: 600px) {
 body {
-/*background-color: black;*/
+  /*background-color: black;*/
 }
+input.inquiry {
+    width: 500px;
 }
