@@ -38,13 +38,13 @@ h2 {
 h3 {
   display: block;
   font-size: 18px;
-  font-color: black;
+  color: black;
   padding: 10px;
 }
 
 label, input.inquiry {
   display: inline-block;
-  padding 20px;
+  padding: 3px;
   width: 200px;
   height: 30px;
   font-size: 14px;
@@ -75,8 +75,9 @@ body {
 /* Large devices (laptops/desktops) */
 @media (min-width: 600px) {
 body {
-  /*background-color: black;*/
+  background-color: green;
 }
 input.inquiry {
     width: 500px;
+}
 }
