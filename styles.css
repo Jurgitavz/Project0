@@ -1,4 +1,4 @@
-* {
+w* {
 font-family: Arial, sans-serif;
 font-size: 14px;
 color: black;
@@ -88,7 +88,7 @@ white-space: nowrap;
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 599px) {
 body {
-background-color: orange;
+background-color: yellow;
 }
 }
 /* Large devices (laptops/desktops) */
