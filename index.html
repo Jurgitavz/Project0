@@ -3,8 +3,8 @@
 
 <head>
    <meta charset="UTF-8">
-   <title>Google Search</title>
-   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   <title>Google</title>
+   <meta content="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="author" content="Jurgita VZ">
    <link rel="stylesheet" href="styles.css">
@@ -12,32 +12,29 @@
 
 <body>
 
-   <div class="container-navigation">
-      <div><a href="google_images.html" title="Go to Google Images">Images</a></div>
-      <div><a href="google_advanced_search.html" title="Go to Google Advanced Search">Advanced Search</a></div>
+   <div class="nav">
+      <a href="images.html" title="Go to Google Images">Images</a>
+      <a href="advanced.html" title="Go to Google Advanced Search">Advanced Search</a>
    </div>
 
-   <div class="container-big-logo">
-      <img src="google_logo.png" alt="Google logo" width="272" height="auto">
+   <div class="logo">
+      <div>
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google images" height="92">
+      </div>
    </div>
 
-   <div class="container-search">
+   <div class="form">
       <form action="https://www.google.com/search">
          <input class="inquiry" type="text" name="q" placeholder="Search Google or type a URL"><br>
-         
+            
          <div class="search">
-            <input class="submit" type="submit" style="cursor:pointer" value="Google Search">
-            <input class="submit" type="submit" style="cursor:pointer" name="btnI" value="I'm Feeling Lucky">
+            <input class="submit" type="submit" value="Google Search">
+            <input class="submit" type="submit" name="btnI" value="I'm Feeling Lucky">
          </div>
 
       </form>
    </div>
 
-   <div class="container-bottom"> Google offered in: Lithuanian</div>
-
 </body>
 
 </html>
-
-
-

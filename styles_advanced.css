@@ -1,20 +1,23 @@
-* {
+/* Whole page style*/
+body {
   font-family: Arial, sans-serif;
+  font-size: 14px;
   color: black;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
-.container-navigation {
+/*Navigation and logo*/
+.nav-advanced {
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: nowrap;
-  background-color: purple;
 }
 
 a:link, a:visited {
+  display: inline-block;
   padding: 15px;
   text-decoration: none;
-  display: block;
 }
 
 a:hover, a:active {
@@ -24,22 +27,23 @@ a:hover, a:active {
 img {
   width: 80px;
   height: auto;
-  padding: 10px;
-  background-color: yellow;
+  margin-left: 0px;
+}
+
+h2, h3 {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 20px;
 }
 
 h2 {
   color: red;
-  font-size: 20px;
-  padding: 10px;
-  background-color: green;
-  }
+  font-size: 18px;
+}
 
 h3 {
-  display: block;
-  font-size: 18px;
-  color: black;
-  padding: 10px;
+  font-size: 16px;
 }
 
 label, input.inquiry {
@@ -47,8 +51,7 @@ label, input.inquiry {
   padding: 3px;
   width: 200px;
   height: 30px;
-  font-size: 14px;
-  margin-top: 20px;
+  margin: 10px 0px 10px 20px; 
 }
 
 input.inquiry {
@@ -57,27 +60,20 @@ input.inquiry {
 
 input.submit {
   display: block;
-  margin: 20px;
   text-align: center;
   background-color: blue;
   padding: 3px;
   color: white;
   font-size: 16px;
   border: none;
+  cursor: pointer;
+  margin: 10px 0px 10px 20px; 
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 599px) {
-body {
-  background-color: orange;
-}
-}
+/* Responsive design*/
 /* Large devices (laptops/desktops) */
 @media (min-width: 600px) {
-body {
-  background-color: green;
-}
 input.inquiry {
-    width: 500px;
+  width: 550px;
 }
 }
