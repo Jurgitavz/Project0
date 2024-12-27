@@ -1,17 +1,14 @@
-/* Whole page style*/
+/* Whole page style */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: black;
+  font: 14px black Arial, sans-serif;
   margin-left: 20px;
 }
 
-/*Navigation and logo*/
+/* Navigation and logo */
 .nav-advanced {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
 }
 
 a:link, a:visited {
@@ -30,6 +27,7 @@ img {
   margin-left: 0px;
 }
 
+/* Headings */
 h2, h3 {
   display: flex;
   height: 50px;
@@ -46,6 +44,7 @@ h3 {
   font-size: 16px;
 }
 
+/* Form */
 label, input.inquiry {
   display: inline-block;
   padding: 3px;
@@ -59,14 +58,12 @@ input.inquiry {
 }
 
 input.submit {
-  display: block;
   text-align: center;
   background-color: blue;
   padding: 3px;
   color: white;
   font-size: 16px;
   border: none;
-  cursor: pointer;
   margin: 10px 0px 10px 20px; 
 }
 
