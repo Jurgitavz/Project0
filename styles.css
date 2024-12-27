@@ -1,15 +1,6 @@
-/* Whole page style*/
+/* Whole page style */
 body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: black;
-    background-color: white;
-    height: 100%;
-    min-width: 400px;
-    margin: 0;
-    padding: 0;
-    display: block;
-    unicode-bidi: isolate;
+    font: 14px black Arial, sans-serif;
 }
 
 .nav, .logo, .form, .search {
@@ -18,48 +9,40 @@ body {
     align-items: center;
 }
 
-/* Navigation OK*/
+/* Navigation */
 .nav {
     justify-content: flex-end;
-    padding: 6px;
-    height: 60px;
     flex-shrink: 0;
-    box-sizing: border-box;
-    unicode-bidi: isolate;
-    }
+    height: 60px;
+    padding: 6px;
+}
 
 a:link, a:visited {
     display: inline-block;
-    vertical-align: middle;
-    padding-right: 15px;
-    text-decoration: none;
-    cursor: pointer;
+    padding: 15px;
     white-space: nowrap;
+    text-decoration: none;
     }
 
 a:hover, a:active {
     text-decoration: underline;
 }
 
-/* Logo*/
+/* Logo */
 .logo {
     position: relative;
-    align-items: end;
-    justify-content: center;
-    height: 200px;
+    align-items: flex-end;
+    height: 170px;
     margin-top: auto;
     padding-bottom: 10px;
     flex-shrink: 0;
-    box-sizing: border-box;
-    }
+}
 
 img {
-    display: inline-block;
     position: relative;
-    object-fit: contain;
-    width: auto;
     height: 92px;
-    }
+    width: auto;
+}
 
 h6 {
     position: relative;
@@ -71,21 +54,18 @@ span {
     color: #4285f4;
     font-size: 16px;
     position: absolute;
-    display: inline-block;
-    align-items: end;
     right: 2px;
     bottom: 10px;
-    white-space: nowrap;
-   }
+}
 
-/* Form*/
+/* Form */
 .inquiry {
+    width: 400px;
     text-align: left;
     font-size: 16px;
     padding: 10px;
     margin: 10px 0px 10px 0px;
     border: 0.25px solid grey;
-    width: 400px;
     border-radius: 25px;
 }
 
@@ -108,7 +88,7 @@ span {
     outline: 1px solid transparent;
 }
 
-/* Responsive design*/
+/* Responsive design */
 /* Large devices (laptops/desktops) */
 @media (min-width: 600px) {
 .inquiry {
